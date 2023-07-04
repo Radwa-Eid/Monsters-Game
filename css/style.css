@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+}
+
+#game{
+    display: block;
+}
+
+.Heading{
+    display: block;
+    text-align: center;
+    margin: 50px;
+    font-family: cursive;
+    color: darkslategrey;
+}
+.bg__gate {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.monister{
+    position: relative;
+}
+
+.monister1{
+    width: 80%;
+}
+ 
+.btn{
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+    font-size: 24px;
+    background-color: rgb(181, 10, 10);
+    color: #fff;
+    border: none;
+    outline: none;
+    transition: all 0.5s;
+    transform: translateY(0px);
+    visibility: hidden;
+    opacity: 0;
+}
+.monister:hover .btn{
+    transform: translateY(-40px);
+    visibility: visible;
+    opacity: 1;
+}
+.monister2{
+    width: 68%;
+}
+
+#gameOver{
+    display: none;
+    margin: auto;
+}
